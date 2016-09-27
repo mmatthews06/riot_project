@@ -1,4 +1,5 @@
-Using Riot.js to exercise some APIs
+Using Riot.js to exercise some APIs:
+https://jsonplaceholder.typicode.com/
 
 * /users
 * /comments
