@@ -6,3 +6,11 @@ https://jsonplaceholder.typicode.com/
 * /posts
 * /albums
 * /photos
+
+# Installation
+```bash
+git clone https://github.com/mmatthews06/riot_project.git
+cd riot_project/
+npm install
+webpack-dev-server
+```
