@@ -1,8 +1,9 @@
 <users>
-  <ul class="list-group">
-    <li class="list-group-item" each={ users } class={ completed: done }>
-      { name }
-    </li>
+  <ul class="list-group striped">
+    <a href="#" class="list-group-item" each={ users }>
+      <h4 class="list-group-item-heading">{ name }</h4>
+      <p class="list-group-item-text">{ email }</p>
+    </a>
   </ul>
 
   var self = this;
