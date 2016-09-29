@@ -8,8 +8,5 @@ riot.route.start(true);
 
 $('.nav li').click(function(e) {
   $('.nav li.active').removeClass('active');
-  var $this = $(this);
-  if (!$this.hasClass('active')) {
-    $this.addClass('active');
-  }
+  $(this).addClass('active');
 });

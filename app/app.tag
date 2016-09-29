@@ -8,7 +8,7 @@ require('./tags/users.tag');
       <div class="col-md-12">
         <nav></nav>
         <div id="view">
-        </div> <!-- .page-content -->
+        </div> <!-- #view -->
       </div> <!-- .col-md-12 -->
     </div> <!-- .row -->
 
