@@ -1,4 +1,5 @@
 require('./tags/nav.tag');
+require('./tags/albums.tag');
 require('./tags/users.tag');
 
 <app>
@@ -6,7 +7,8 @@ require('./tags/users.tag');
     <div class="row">
       <div class="col-md-12">
         <nav></nav>
-        <users></users>
+        <div id="view">
+        </div> <!-- .page-content -->
       </div> <!-- .col-md-12 -->
     </div> <!-- .row -->
 
@@ -19,7 +21,7 @@ require('./tags/users.tag');
     r('', function() { riot.route('//users') } );
 
     function albums() {
-      console.log('Albums...');
+      riot.mount('#view', 'albums');
     }
     function comments() {
       console.log('Comments...');
@@ -31,6 +33,6 @@ require('./tags/users.tag');
       console.log('Posts...');
     }
     function users() {
-      console.log('Users...');
+      riot.mount('#view', 'users');
     }
 </app>
