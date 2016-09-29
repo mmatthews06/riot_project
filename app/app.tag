@@ -1,5 +1,6 @@
 require('./tags/nav.tag');
 require('./tags/albums.tag');
+require('./tags/comments.tag');
 require('./tags/users.tag');
 
 <app>
@@ -24,7 +25,7 @@ require('./tags/users.tag');
       riot.mount('#view', 'albums');
     }
     function comments() {
-      console.log('Comments...');
+      riot.mount('#view', 'comments');
     }
     function photos() {
       console.log('Photos...');

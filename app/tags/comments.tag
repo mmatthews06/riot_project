@@ -1,9 +1,9 @@
-<albums>
+<comments>
   <ul class="list-group striped">
-    <a href="#" class="list-group-item" each={ albums }>
+    <a href="#" class="list-group-item" each={ comments }>
       <div class="row">
         <div class="col-md-3">
-          <h4 class="list-group-item-heading">{ title }</h4>
+          <h4 class="list-group-item-heading">{ name }</h4>
         </div> <!-- .col-md-3 -->
       </div> <!-- .row -->
     </a> <!-- .list-group-item -->
@@ -11,9 +11,9 @@
 
   var self = this;
 
-  $.ajax('https://jsonplaceholder.typicode.com/albums')
+  $.ajax('https://jsonplaceholder.typicode.com/comments')
     .done(function (resp) {
-      self.albums = resp;
+     self.comments = resp;
       self.update()
     });
-</albums>
+</comments>
