@@ -10,6 +10,7 @@
     </div> <!-- .row -->
   </div> <!-- .container -->
 
+  <script>
   var self = this;
   console.log(this.opts);
 
@@ -19,4 +20,5 @@
       self.photos = resp;
       self.update()
     });
+  </script>
 </album>

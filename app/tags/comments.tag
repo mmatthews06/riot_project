@@ -9,6 +9,7 @@
     </a> <!-- .list-group-item -->
   </ul> <!-- .list-goup -->
 
+  <script>
   var self = this;
 
   $.ajax('https://jsonplaceholder.typicode.com/comments')
@@ -21,4 +22,5 @@
     $('.nav li.active').removeClass('active');
     $('#nav-item-comments').addClass('active');
   });
+  </script>
 </comments>
