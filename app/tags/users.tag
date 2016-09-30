@@ -16,7 +16,7 @@
       </div> <!-- .row -->
     </a> <!-- .list-group-item -->
   </ul> <!-- .list-goup -->
-
+  <script>
   var self = this;
 
   $.ajax('https://jsonplaceholder.typicode.com/users')
@@ -25,9 +25,9 @@
       self.update()
     });
 
-
-    this.on('mount', function (){
-      $('.nav li.active').removeClass('active');
-      $('#nav-item-users').addClass('active');
-    });
+  this.on('mount', function (){
+    $('.nav li.active').removeClass('active');
+    $('#nav-item-users').addClass('active');
+  });
+  </script>
 </users>
