@@ -25,7 +25,6 @@
       self.update()
     });
 
-
   this.on('mount', function (){
     $('.nav li.active').removeClass('active');
     $('#nav-item-users').addClass('active');
