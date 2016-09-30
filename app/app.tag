@@ -1,15 +1,10 @@
-require('./tags/nav.tag');
 require('./tags/albums.tag');
 require('./tags/comments.tag');
 require('./tags/users.tag');
 
 <app>
+
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <nav></nav>
-      </div>
-    </div> <!-- .row -->
     <div class="row">
       <div class="col-md-12">
         <div id="view"></div> <!-- #view -->
