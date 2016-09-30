@@ -2,6 +2,10 @@
 
 body {
   background-color: lightgrey;
+
+  // This seems to be missing from Bootstrap,
+  // for the navbar-fixed-top styling. May be
+  // a CSS scoping issue with my use of riot.js
   padding-top: 70px;
 }
 
