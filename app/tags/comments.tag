@@ -16,4 +16,9 @@
      self.comments = resp;
       self.update()
     });
+
+  this.on('mount', function (){
+    $('.nav li.active').removeClass('active');
+    $('#nav-item-comments').addClass('active');
+  });
 </comments>
