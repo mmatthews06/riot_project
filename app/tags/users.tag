@@ -26,8 +26,8 @@
     });
 
 
-    this.on('mount', function (){
-      $('.nav li.active').removeClass('active');
-      $('#nav-item-users').addClass('active');
-    });
+  this.on('mount', function (){
+    $('.nav li.active').removeClass('active');
+    $('#nav-item-users').addClass('active');
+  });
 </users>
