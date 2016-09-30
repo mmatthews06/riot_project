@@ -8,7 +8,7 @@
         <h4 class="list-group-item-heading">{ this.user.name }</h4>
         <p class="list-group-item-text">{ this.user.email }</p>
       </div> <!-- .col-md-3 -->
-      <div class="col-md-4 user-address">
+      <div class="col-md-8 user-address">
         <span class="small-text">From:</span>
         <br/>
         <span class="address">{ this.user.address.street }</span>
