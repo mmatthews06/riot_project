@@ -16,4 +16,9 @@
       self.albums = resp;
       self.update()
     });
+
+    this.on('mount', function (){
+      $('.nav li.active').removeClass('active');
+      $('#nav-item-albums').addClass('active');
+    });
 </albums>

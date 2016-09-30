@@ -13,10 +13,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#/users">Users <span class="sr-only">(current)</span></a></li>
-        <li><a href="#/albums">Albums</a></li>
-        <li><a href="#/photos">Photos</a></li>
-        <li><a href="#/comments">Comments</a></li>
+        <li id='nav-item-users' class="active"><a href="#/users">Users <span class="sr-only">(current)</span></a></li>
+        <li id='nav-item-albums'><a href="#/albums">Albums</a></li>
+        <li id='nav-item-photos'><a href="#/photos">Photos</a></li>
+        <li id='nav-item-comments'><a href="#/comments">Comments</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
